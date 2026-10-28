@@ -115,7 +115,7 @@ export const config: Config = {
       name: 'google-scholar',
       display: 'Google Scholar',
       ariaLabel: 'Google Scholar publications (opens in new window)',
-      href: 'https://scholar.google.com/citations?user=f1FFPwYAAAAJ&hl=en',
+      href: 'https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AN_4Zu8LaqXifQ0nRrfz-RLRGGuLYcVGGr6XcGL7Sf4Z9Jutzin-4zSCOs1DCfzNTItnK2CFkqotVOaL90HLqQ&user=pEzKvbYAAAAJ',
     },
     {
       name: 'notes',

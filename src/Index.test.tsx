@@ -218,7 +218,7 @@ describe('application tests', () => {
   it('should render verified academic links', () => {
     expect(screen.getByTestId('button-Google Scholar')).toHaveAttribute(
       'href',
-      'https://scholar.google.com/citations?user=f1FFPwYAAAAJ&hl=en',
+      'https://scholar.google.com/citations?hl=en&view_op=list_works&authuser=1&gmla=AN_4Zu8LaqXifQ0nRrfz-RLRGGuLYcVGGr6XcGL7Sf4Z9Jutzin-4zSCOs1DCfzNTItnK2CFkqotVOaL90HLqQ&user=pEzKvbYAAAAJ',
     );
     expect(screen.getByTestId('button-X / Twitter')).toHaveAttribute(
       'href',
