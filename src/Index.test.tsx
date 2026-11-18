@@ -82,7 +82,7 @@ describe('application tests', () => {
 
   it('should keep the hero concise', () => {
     expect(screen.getByText('Researcher of Computer Science')).toBeVisible();
-    expect(screen.getByText('Zhejiang University · CAD&CG')).toBeVisible();
+    expect(screen.getByText('Zhejiang University (ZJU) · CAD&CG')).toBeVisible();
     expect(
       screen.queryByText('Generative models · Multimodal AI · World models'),
     ).not.toBeInTheDocument();
@@ -96,7 +96,7 @@ describe('application tests', () => {
     expect(element).toHaveAccessibleName('Homepage source code');
     expect(element).toHaveAttribute(
       'href',
-      'https://github.com/auroey/auroey.github.io',
+      'https://github.com/xr-tang/auroey.github.io',
     );
   });
 
@@ -104,7 +104,7 @@ describe('application tests', () => {
     expect(screen.getByRole('heading', { name: 'Projects' })).toBeVisible();
     expect(screen.getByRole('link', { name: /IMVA/i })).toHaveAttribute(
       'href',
-      'https://github.com/auroey/IMVA',
+      'https://github.com/xr-tang/IMVA',
     );
     expect(screen.getByRole('heading', { name: 'Education' })).toBeVisible();
     expect(screen.getByText('Zhejiang University')).toBeVisible();
@@ -212,7 +212,7 @@ describe('application tests', () => {
   it('should render GitHub button', () => {
     const parent = screen.getByTestId('button-GitHub');
 
-    checkButton(parent, /^GitHub$/, 'https://github.com/auroey');
+    checkButton(parent, /^GitHub$/, 'https://github.com/xr-tang');
   });
 
   it('should render verified academic links', () => {
@@ -226,7 +226,7 @@ describe('application tests', () => {
     );
     expect(screen.getByTestId('button-Notes')).toHaveAttribute(
       'href',
-      'https://auroey.github.io/web-digital-garden-ts/',
+      'https://xr-tang.github.io/web-digital-garden-ts/',
     );
     expect(screen.queryByTestId('button-Lab')).not.toBeInTheDocument();
   });
