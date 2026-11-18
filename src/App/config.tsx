@@ -8,7 +8,7 @@ export const config: Config = {
     display: 'Researcher of Computer Science',
   },
   affiliation: {
-    display: 'Zhejiang University · CAD&CG',
+    display: 'Zhejiang University (ZJU) · CAD&CG',
   },
   introduction: [
     'I study intelligent systems that perceive, generate, and interact with virtual worlds.',
@@ -65,28 +65,28 @@ export const config: Config = {
       name: 'IMVA',
       description:
         'An interactive mixed-reality anatomy learning project built with Unity and MRTK3.',
-      href: 'https://github.com/auroey/IMVA',
+      href: 'https://github.com/xr-tang/IMVA',
       tags: ['Unity', 'MRTK3', 'Mixed Reality'],
     },
     {
       name: 'Digital Garden',
       description:
         'A public knowledge base for research notes and technical learning, built with Quartz and Obsidian.',
-      href: 'https://auroey.github.io/web-digital-garden-ts/',
+      href: 'https://xr-tang.github.io/web-digital-garden-ts/',
       tags: ['Quartz', 'Obsidian', 'TypeScript'],
     },
     {
       name: 'Markdown Note Triage',
       description:
         'A keyboard-first desktop app for organizing Markdown files with optional LLM suggestions.',
-      href: 'https://github.com/auroey/llm-file-organizer',
+      href: 'https://github.com/xr-tang/llm-file-organizer',
       tags: ['Python', 'PySide6', 'LLM'],
     },
     {
       name: 'Research Skill',
       description:
         'A local-first Codex research workbench for literature discovery, deep reading, experiment planning, and resumable research.',
-      href: 'https://github.com/auroey/research-skill',
+      href: 'https://github.com/xr-tang/research-skill',
       tags: ['Codex', 'Research', 'Python'],
     },
   ],
@@ -121,13 +121,13 @@ export const config: Config = {
       name: 'notes',
       display: 'Notes',
       ariaLabel: 'Obsidian digital garden (opens in new window)',
-      href: 'https://auroey.github.io/web-digital-garden-ts/',
+      href: 'https://xr-tang.github.io/web-digital-garden-ts/',
     },
     {
       name: 'github',
       display: 'GitHub',
       ariaLabel: 'GitHub profile (opens in new window)',
-      href: 'https://github.com/auroey',
+      href: 'https://github.com/xr-tang',
     },
     {
       name: 'linked-in',
