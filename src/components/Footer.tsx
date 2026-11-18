@@ -45,7 +45,7 @@ export const Footer = () => {
       © 2026 Xinrui Tang
       <a
         data-v2="source"
-        href="https://github.com/auroey/auroey.github.io"
+        href="https://github.com/xr-tang/xr-tang.github.io"
         aria-label="Homepage source code"
         title="Source code"
       >

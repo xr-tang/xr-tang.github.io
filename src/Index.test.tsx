@@ -96,7 +96,7 @@ describe('application tests', () => {
     expect(element).toHaveAccessibleName('Homepage source code');
     expect(element).toHaveAttribute(
       'href',
-      'https://github.com/xr-tang/auroey.github.io',
+      'https://github.com/xr-tang/xr-tang.github.io',
     );
   });
 
